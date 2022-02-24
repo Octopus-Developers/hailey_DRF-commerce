@@ -37,4 +37,4 @@ class TagAdmin(AdminChangeLinksMixin, admin.ModelAdmin):
     def tag_name(self, obj):
         return obj.tag
 
-admin.site.site_header = "DailyShot Product Admin"
+admin.site.site_header = "Product Admin"

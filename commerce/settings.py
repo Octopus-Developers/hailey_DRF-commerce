@@ -60,7 +60,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'dailyshot.urls'
+ROOT_URLCONF = 'commerce.urls'
 
 TEMPLATES = [
     {
@@ -78,7 +78,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'dailyshot.wsgi.application'
+WSGI_APPLICATION = 'commerce.wsgi.application'
 
 
 # Database
