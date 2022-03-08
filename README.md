@@ -8,6 +8,38 @@
 
 <br />
 
+
+
+```bash
+.
+├── README.md
+├── commerce
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-38.pyc
+│   │   └── settings.cpython-38.pyc
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── manage.py
+├── products
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── migrations
+│   │   └── __init__.py
+│   ├── models.py
+│   ├── pagination.py
+│   ├── serializer.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+└── requirements.txt
+```
+
+
+
 ## :: 구현 사항 설명 
 1. 상품 생성 시 하기 조건 검증
       - 정가와 상품 가격은 양수여야 함
