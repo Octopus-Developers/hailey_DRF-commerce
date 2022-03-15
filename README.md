@@ -17,9 +17,6 @@
 ├── README.md
 ├── commerce
 │   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-38.pyc
-│   │   └── settings.cpython-38.pyc
 │   ├── asgi.py
 │   ├── settings.py
 │   ├── urls.py
@@ -30,7 +27,6 @@
 │   ├── admin.py
 │   ├── apps.py
 │   ├── migrations
-│   │   └── __init__.py
 │   ├── models.py
 │   ├── pagination.py
 │   ├── serializer.py
